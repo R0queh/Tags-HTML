@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabela</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<!--
+		Escrita das tags:	
+		<table border="(tamanho desejado)" width="(tamanho desejado)">
+		<tr rowspan(para fazer uma linha ocupar o espaço de mais de uma linha)>(linha da tabela)
+			<th>(linha da tabela como título)
+		</tr>
+		<tr colspan(para fazer uma coluna ocupar o espaço de mais de uma coluna)>
+			<td>(coluna da tabela)</td>
+			<td><img src=""></td>(para usarmos uma imagem dentro da tabela)
+			<td><a href=" "> </a></td>(para ultilizar um link)
+		</tr>
+		</table>
+	-->
+	<h1>Tags de tabela</h1>
+	<a href="projeto.html">Home</a> /
+	<a href="textos.html">Textos</a>/ 
+	<a href="Formatação.html">Formatação</a>/ 
+	<a href="listas.html">Listas</a>/ 
+	<a href="imagem.html">Imagem</a></em></h2></li>/ 
+	<a href="link.html">Link</a> /
+	<a href="tabela.html">Tabela</a> /
+	<a href="formulario.html">Formulário</a>
+	<hr>
+		<h3>tag &lt;table&gt;&lt;/table&gt;:</h3>
+			<p>Vem de table que significa tabela em inglês e junto com essa tag usamos mais alguns parâmetros como:</p>
+		<h3>border=:</h3>
+			<p>vem de border em inglês que significa borda, usamos para definir o tamanho da borda da tabela e é necessário para que se desenhe a tabela que estamos pedindo</p>
+		<h3>width=:</h3>
+			<p>Vem de width em ingles que significa largura e nós podemos definir para determinar um tamanho fixo para nossa tabela</p>
+		<h3>Tag &lt;tr&gt;&lt;/tr&gt;</h3> 
+			<p>vem de <strong>t</strong>able <strong>r</strong>oll que significa linha de tabela, é realmente cada linha e precisaremos usar essa tag toda vez que quisermos uma linha nova.</p>
+		<h3>Tag &lt;td&gt;&lt;/td&gt;</h3> 
+			<p>Vem de <strong>t</strong>ables <strong>d</strong>ata que significa dados da tabela, são os dados de cada linha e podemos tambem defini-las como as colunas da tabela.</p>
+		<h3>Tag &lt;th&gt;&lt;/th&gt;</h3> 
+			<p>Vem de <strong>t</strong>able <strong>h</strong>eader que significa cabeçalho de tabela, e usamos para darmos o titulo de cada culuna da tabela</p>
+			<hr>
+			<p>dentro de tais <strong>tags</strong> podemos colocar alguns itens:</p>
+			<p><h3>imagens :</h3> usando a tag img(caso deseje saber como usa-la clique <a href="imagem.html">aqui</a>).</p>
+			<p><h3>links :</h3> com a tag a (caso deseje saber como usa-la clique <a href="link.html">aqui</a>).</p>
+			<p><h3>colspan :</h3> Vem de (collum span) e significa expansão da coluna.</p>
+			<p><h3>rowspan :</h3> Vem de (row span) e significa expansão da linha.</p>
+			<hr>
+			<h3>Estrutura:</h3>
+			&lt;table border=(tamanho da borda desejado) width=(tamanho da borda desejado) &gt;<br>
+			&lt;tr&gt;(linhas da tabela)<br>
+			&lt;th rowspan=""&gt;&lt;<br>
+			/th&gt;(título da tabela)<br>
+			&lt;/tr&gt;<br>
+			&lt;td&gt;(dados da tabela)<br>
+
+			&lt;/td&gt;<br>
+
+			&lt;td colspan=""&gt;<br>
+
+			&lt;/td&gt;<br>
+
+			Para colocarmos imagem na tabela:
+			<br>
+			&lt;td&gt;<br>
+			&lt;img src=""&gt;<br>
+			&lt;/td&gt;<br>
+			Para colocarmos um link na tabela:
+			&lt;td&gt;<br>
+			&lt;a href=""&gt;&lt;/a&gt;<br>
+			&lt;/td&gt;<br>
+
+			&lt;/tr&gt;<br>
+
+			&lt;/table&gt;<br>
+
+			<hr>
+			<h3>Exemplo de tabela</h3>
+		<table border="2" width="50%">
+			<tr>
+				<th>Carro</th>
+				<th>Fipe</th>
+				<th>Ano</th>
+				<th>Modelo</th>
+				<th>Compre</th>
+			</tr>
+			<tr>
+				<td>Lamborguini Gallardo</td>
+				<td>932.569,00</td>
+				<td>2013</td>
+				<td>
+					<img src="Imagens/lamborguine.jpg" width="150">
+				</td>
+				<td><a href="https://www.webmotors.com.br/carros/estoque/lamborghini/gallardo/de.2013?tipoveiculo=carros&anode=2013&marca1=LAMBORGHINI&modelo1=GALLARDO">Lamborguine</a></td>
+			</tr>
+			<tr>
+				<th rowspan="2">desconto</th>
+				<td colspan="4">cupom buscador -10%</td>
+			</tr>
+			<tr>
+				<td colspan="4">cupom boleto -8%</td>
+			</tr>
+			<tr>
+				<th>Total</th>
+				<td colspan="4">764.706,58 Mérreish</td>
+			</tr>
+		</table>
+			<h4>Ainda tem duvidas ?</h4>
+		<p>
+			Inspecione (ctrl + shift + i) a página para ver como se escreve a tabela do exemplo da página.
+		</p>
+</body>
+</html>
